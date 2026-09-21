@@ -1,0 +1,26 @@
+# --- Eclipse specific ---
+.classpath
+.project
+.settings/
+
+# --- IntelliJ IDEA (もし使う場合) ---
+.idea/
+*.iml
+
+# --- VS Code (もし使う場合) ---
+.vscode/
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- Maven build ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.restore
+
+# --- Logs / temp ---
+*.log
+*.tmp

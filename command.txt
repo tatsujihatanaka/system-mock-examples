@@ -1,0 +1,21 @@
+cd C:\DevStudyAI\Copilot_gemini\07\system-mock-examples
+
+mvn archetype:generate \
+  -DgroupId=com.example.mockito5 \
+  -DartifactId=system-mock-examples-mockito5 \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false
+
+
+mvn archetype:generate \
+  -DgroupId=com.example.powermock \
+  -DartifactId=system-mock-examples-powermock \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false
+
+mvn archetype:generate \
+  -DgroupId=com.example.mockito5 \
+  -DartifactId=system-mock-examples-default \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false
+
